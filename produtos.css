@@ -1,0 +1,104 @@
+header {
+    background: #BBBBBB;
+    /* espaçamento interno */
+    padding: 20px 0%;
+}
+
+.caixa {
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+
+nav {
+    position: absolute;
+    /* a imagem tem em torno de 240 pixels, 110 fica no meio */
+    top: 110px;
+    right: 0;
+}
+
+nav li {
+    display: inline;
+    /* topo, direita, baixo e esquerda 
+    no caso aqui ta um espaço de 15 pixels a esquerda*/
+    margin: 0 0 0 15px;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #C78C19;
+    text-decoration: underline;
+}
+
+.produtos {
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+.produtos li {
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: 2px solid #000000;
+    /* border-color: #000000;
+    border-width: 2px;
+    border-style: solid;
+    funciona da mesma forma mas utiliza mais linhas*/
+    border-radius: 10px;
+    /* também pode utilizar por exemplo por canto especifico 
+    border-radius: 10px 20px 30px 40px */;
+}
+
+.produtos li:hover {
+    border-color: #C78C19;
+}
+
+.produtos li:active {
+    border-color: #088c19;
+}
+
+.produtos li:hover h2 {
+    font-size: 34px;
+}
+
+.produtos h2 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.produto-descricao {
+    font-size: 18px;
+}
+
+.produto-preco {
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 10px; 
+    /* margin: 10px 0 0; topo, direita, baixo e esquerda 
+    mesma coisa de usar margintop*/
+}
+
+footer {
+    text-align: center;
+    background: url(imagens/bg.jpg);
+    padding: 40px 0;
+}
+
+.Copyright {
+    color: #ffffff;
+    font-size: 13px;
+    margin: 20px;
+    
+}
